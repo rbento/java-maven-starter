@@ -1,2 +1,1 @@
-# mvn-jar-template
-A starter template for maven jar projects
+A starter template for Maven JAR projects.
