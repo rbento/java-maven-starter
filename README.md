@@ -1,1 +1,1 @@
-A starter template for Maven JAR projects.
+A minimal template for JAR projects managed with Apache Maven.
