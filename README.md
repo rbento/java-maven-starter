@@ -1,1 +1,3 @@
-A minimal template for JAR projects managed with Apache Maven.
+A minimal template for Maven projects.
+
+- Java 16
