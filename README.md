@@ -11,3 +11,10 @@ A starter template for Java projects managed with Apache Maven.
 [1]: https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot
 [2]: https://maven.apache.org/download.cgi
 
+### Build
+---
+
+```
+$ mvn clean install
+```
+
