@@ -1,3 +1,13 @@
-A minimal template for Maven projects.
+# java-maven-starter
 
-- Java 16
+A starter template for Java projects managed with Apache Maven.
+
+### Dependencies
+---
+
+- [Java][1]
+- [Maven][2]
+
+[1]: https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot
+[2]: https://maven.apache.org/download.cgi
+
