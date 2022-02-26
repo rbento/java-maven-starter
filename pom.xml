@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>rbento</groupId>
-    <artifactId>program</artifactId>
+    <artifactId>java-maven-starter</artifactId>
     <version>1.0.0</version>
 
     <packaging>jar</packaging>
 
-    <name>Program</name>
+    <name>java-maven-starter</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,7 +43,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.0</version>
                 <configuration>
-                    <release>16</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
 
