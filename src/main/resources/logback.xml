@@ -2,16 +2,27 @@
 <!DOCTYPE configuration>
 
 <configuration>
-	<import class="ch.qos.logback.classic.encoder.PatternLayoutEncoder"/>
 	<import class="ch.qos.logback.core.ConsoleAppender"/>
+	<import class="ch.qos.logback.core.FileAppender"/>
+	<import class="ch.qos.logback.classic.encoder.PatternLayoutEncoder"/>
+
+	<timestamp key="byMinute" datePattern="yyyyMMddHHmm"/>
 
 	<appender name="STDOUT" class="ConsoleAppender">
 		<encoder class="PatternLayoutEncoder">
-			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} -%kvp- %msg%n</pattern>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} -%kvp- %msg %n</pattern>
 		</encoder>
 	</appender>
 
-	<root level="debug">
+	<appender name="FILE" class="FileAppender">
+		<file>logs/${byMinute}-program.log</file>
+		<encoder class="PatternLayoutEncoder">
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} -%kvp- %msg %n</pattern>
+		</encoder>
+	</appender>
+
+	<root level="DEBUG">
+        <appender-ref ref="FILE"/>
 		<appender-ref ref="STDOUT"/>
 	</root>
 </configuration>
