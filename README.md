@@ -5,7 +5,7 @@ A starter template for Java SE projects managed with Maven.
 ### Dependencies
 ---
 
-- [Java][1]
+- [Java 19][1]
   > The Java® programming language is a general-purpose, concurrent, class-based, object-oriented language.
 - [Maven][2]
   > Apache Maven is a software project management and comprehension tool.
@@ -14,9 +14,9 @@ A starter template for Java SE projects managed with Maven.
 - [Logback][4]
   > Logback is intended as a successor to the popular log4j project.
 - [JUnit 5][5]
-- > The JUnit Platform serves as a foundation for launching testing frameworks on the JVM.
+  > The JUnit Platform serves as a foundation for launching testing frameworks on the JVM.
 - [AssertJ][6]
-- > AssertJ core is a Java library that provides a fluent interface for writing assertions.
+  > AssertJ core is a Java library that provides a fluent interface for writing assertions.
 
 ### Features
 ---
