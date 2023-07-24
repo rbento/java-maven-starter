@@ -2,6 +2,13 @@
 
 A starter template for Java SE projects managed with Maven.
 
+### Features
+---
+
+- Simple project structure.
+- File based logs.
+- Sample unit tests.
+
 ### Dependencies
 ---
 
@@ -17,13 +24,6 @@ A starter template for Java SE projects managed with Maven.
   > The JUnit Platform serves as a foundation for launching testing frameworks on the JVM.
 - [AssertJ][6]
   > AssertJ core is a Java library that provides a fluent interface for writing assertions.
-
-### Features
----
-
-- Simple project structure.
-- File based logs.
-- Sample unit tests.
 
 ### Build
 ---
