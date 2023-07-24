@@ -44,3 +44,10 @@ mvn exec:java -Dexec.mainClass="rbento.Program"
 [4]: https://logback.qos.ch
 [5]: https://junit.org/junit5/
 [6]: https://joel-costigliola.github.io/assertj/assertj-core.html
+
+### Test Report
+---
+
+```bash
+mvn surefire-report:report
+```
