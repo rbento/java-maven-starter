@@ -1,4 +1,5 @@
 # java-maven-starter
+![Build](https://github.com/rbento/java-maven-starter/actions/workflows/maven.yml/badge.svg)
 
 A starter template for Java SE projects managed with Maven.
 
