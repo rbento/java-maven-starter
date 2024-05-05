@@ -1,4 +1,7 @@
 
+# Using polyglot-yaml
+# https://github.com/takari/polyglot-maven
+
 modelVersion: 4.0.0
 groupId: rbento
 artifactId: java-maven-starter
@@ -41,7 +44,6 @@ dependencies:
     scope: test
 
 build:
-  sourceDirectory: src/main/java
   plugins:
     - groupId: org.apache.maven.plugins
       artifactId: maven-compiler-plugin
