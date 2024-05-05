@@ -13,7 +13,7 @@ A starter template for Java SE projects managed with Maven.
 ### Dependencies
 ---
 
-- [Java 19][1]
+- [Java 21][1]
   > The Java® programming language is a general-purpose, concurrent, class-based, object-oriented language.
 - [Maven][2]
   > Apache Maven is a software project management and comprehension tool.
