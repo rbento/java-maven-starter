@@ -1,6 +1,4 @@
 
-/* Copyright (c) 2021-2023, Rodrigo Bento */
-
 package rbento;
 
 import java.nio.file.Files;

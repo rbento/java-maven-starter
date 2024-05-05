@@ -1,6 +1,4 @@
 
-/* Copyright (c) 2021-2023, Rodrigo Bento */
-
 package rbento;
 
 import lombok.extern.slf4j.Slf4j;
