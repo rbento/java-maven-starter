@@ -1,7 +1,7 @@
 # java-maven-starter
 ![Build](https://github.com/rbento/java-maven-starter/actions/workflows/ci.yml/badge.svg)
 
-A starter template for Java SE projects managed with Maven.
+A starter template for Java SE projects.
 
 ### Features
 ---
@@ -48,13 +48,6 @@ mvn clean package
 ```bash
 mvn exec:java -Dexec.mainClass="rbento.Program"
 ```
-[1]: https://openjdk.org/projects/jdk/19/
-[2]: https://maven.apache.org/download.cgi
-[3]: https://projectlombok.org
-[4]: https://logback.qos.ch
-[5]: https://junit.org/junit5/
-[6]: https://joel-costigliola.github.io/assertj/assertj-core.html
-[7]: https://github.com/takari/polyglot-maven
 
 ### Test Report
 ---
@@ -62,3 +55,11 @@ mvn exec:java -Dexec.mainClass="rbento.Program"
 ```bash
 mvn surefire-report:report
 ```
+
+[1]: https://openjdk.org/projects/jdk/19/
+[2]: https://maven.apache.org/download.cgi
+[3]: https://projectlombok.org
+[4]: https://logback.qos.ch
+[5]: https://junit.org/junit5/
+[6]: https://joel-costigliola.github.io/assertj/assertj-core.html
+[7]: https://github.com/takari/polyglot-maven
