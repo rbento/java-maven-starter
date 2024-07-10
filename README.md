@@ -3,13 +3,6 @@
 
 A starter template for Java SE projects.
 
-### Features
----
-
-- Simple project structure.
-- File based logs.
-- Sample unit tests.
-
 ### Dependencies
 ---
 
