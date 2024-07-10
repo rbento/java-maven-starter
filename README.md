@@ -3,6 +3,27 @@
 
 A starter template for Java SE projects.
 
+### Build
+---
+
+```bash
+mvn clean package
+```
+
+### Run
+---
+
+```bash
+mvn exec:java -Dexec.mainClass="rbento.Program"
+```
+
+### Test Report
+---
+
+```bash
+mvn surefire-report:report
+```
+
 ### Dependencies
 ---
 
@@ -27,27 +48,6 @@ A starter template for Java SE projects.
 [Polyglot for Maven][7]    
 - A set of extensions for Maven 3.3.1+ that allows the POM model to be written in dialects other than XML. 
 - Using polyglot-yaml. See the [pom.yaml](https://github.com/rbento/java-maven-starter/blob/main/pom.yaml) file for details.
-
-### Build
----
-
-```bash
-mvn clean package
-```
-
-### Run
----
-
-```bash
-mvn exec:java -Dexec.mainClass="rbento.Program"
-```
-
-### Test Report
----
-
-```bash
-mvn surefire-report:report
-```
 
 [1]: https://openjdk.org/projects/jdk/19/
 [2]: https://maven.apache.org/download.cgi
